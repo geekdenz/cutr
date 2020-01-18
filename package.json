@@ -1,6 +1,6 @@
 {
   "name": "cutr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Unix cut like program to cut by regular expression",
   "main": "index.js",
   "scripts": {
