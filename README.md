@@ -6,7 +6,7 @@ Unix cut tool like but with regular expression cutter delimiter
 
 ```bash
 $ cutr -h
-  Usage: index [options] [command]
+  Usage: cutr [options] [command]
   
   Commands:
     help     Display help
