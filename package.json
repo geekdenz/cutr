@@ -1,6 +1,6 @@
 {
   "name": "cutr",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Unix cut like program to cut by regular expression",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,10 @@
   "bin": {
     "cutr": "./index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "cut", "unix", "linux",
+    "shell", "bash", "sh",
+    "zsh", "regex", "regular expression"],
   "author": "",
   "license": "ISC",
   "devDependencies": {
