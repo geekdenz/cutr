@@ -2,7 +2,9 @@
 
 Unix cut tool like but with regular expression cutter delimiter
 
-## Usage:
+## Usage
+
+Reads from /dev/stdin.
 
 ```bash
 $ cutr -h
@@ -35,4 +37,5 @@ $ ls --full-time | cutr -d ' +' -f 6- | sort | uniq
 2020-01-18 22:10:21.577489391 +1300 lib.js
 2020-01-18 22:10:21.585489449 +1300 index.js
 2020-01-18 22:24:50.342164974 +1300 README.md
-2020-01-18 22:25:11.330885962 +1300 package.json```
+2020-01-18 22:25:11.330885962 +1300 package.json
+```
