@@ -1,0 +1,24 @@
+{
+  "name": "cutr",
+  "version": "1.0.0",
+  "description": "Unix cut like program to cut by regular expression",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo '1 2  3      4' | node index -f 3-5 -d ' +' -r ' AHA '",
+    "start": "tsc"
+  },
+  "bin": {
+    "cutr": "./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/args": "^3.0.0",
+    "@types/node": "^13.1.8",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "args": "^5.0.1"
+  }
+}
